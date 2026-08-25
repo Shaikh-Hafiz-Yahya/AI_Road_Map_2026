@@ -1,10 +1,12 @@
 #                    Topic: (First API Code, Decorators, Routes & Docs Explained)
-
-# pip Requirement: (python -m pip install fastapi uvicorn pyd)
-
+# ________________________________________________________________________________________________
+# ------------------------------------------------------------
+# pip Requirement: --> python -m pip install fastapi uvicorn pyd
+# virtual Environment command: --> python -m venv fapi
+# ------------------------------------------------------------
 # uvicorn --> 'server ha fastapi ka'
 # pydantic(pyd) --> is a 'translator'
-
+# ------------------------------------------------------------
 from fastapi import FastAPI
 
 app = FastAPI()
